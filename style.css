@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  box-shadow: none;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.blog-title {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+li {
+  margin-top: 10px;
+}
+
+#logo {
+font-family: 'Alegreya Sans', sans-serif;
+ font-style: italic;
+ font-weight: 700;
+}
+
+.contact-links {
+   text-align: right;
+}
+
+@media only screen and (max-width : 600px) {
+  .contact-links {
+     text-align: left;
+  }
+}
